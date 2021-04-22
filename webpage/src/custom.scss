@@ -1,0 +1,37 @@
+/* custom.scss */    
+        
+/* import the necessary Bootstrap files */
+// relative paths for hearingtest group
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+
+/* Custom colors */
+$theme-colors: (
+  "primary":    #F28F38,   // crazy hear orange
+  "secondary":  #62CDD9,   // crazy hear teal
+  "success":    #66FFAD,   // sound sustainability green
+  "info":       #049DD9,   // public park mural blue
+  "warning":    #D9583B,   // crazy hear lighter red
+  "danger":     #992C1E,   // crazy hear dark red
+  "light":      #F2F2F2,   // crazy hear white
+  "dark":       $dark        // black
+);
+
+$enable-responsive-font-sizes: true;
+
+$font-size-base: 1rem;
+
+$h1-font-size: 4rem;
+$h2-font-size: 3rem;
+$h3-font-size: 2rem;
+$h4-font-size: 1.5rem;
+$h5-font-size: 1rem;
+
+$p-font-size: 1.25rem;
+
+$breadcrumb-divider: quote(">");
+        
+/* Need to import to change the bootstrap */
+@import "bootstrap";

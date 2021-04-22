@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+html { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  padding-top: 53px;
+}
+
+.nav-btn {
+  font-weight: 300;
+  color: black;
+}
+
+.nav-btn:hover {
+  color: '#F28F38';
+}
+
+.bg-image {
+  background-image: url('img/pexels-andrea-piacquadio-3799664.png');
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.bg-image h2, .bg-image h5 {
+  width: fit-content;
+}
+
+.bg-image h2 {
+  white-space: nowrap;
+}
+
+.facts {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card {
+  font-size: 1rem;
+}
+
+.lp-trust-content {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.about-page {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.accordian-toggle:hover {
+  background-color: #D9583B;
+  color: #F2F2F2;
+  font-weight: 500;
+}
+
+@media (max-width: 720px) {
+  .lp-trust-content {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+}
+
+@media (max-width: 450px) {
+  .bg-image {
+    background-image: none;
+    background-color: #62CDD9;
+    height: 100vh;
+  }
+
+  .lp-trust-content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .about-page {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .bg-image h2 {
+    white-space: normal;
+  }
+}
