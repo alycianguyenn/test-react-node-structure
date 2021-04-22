@@ -6,7 +6,7 @@ const saySomething = (req, res, next) => {
     });
 };
 
-// added communication
+// added communication example / test for me
 const helloWorldd = (req, res, next) => {
     res.status(200).json({
         body: 'HELLO WORLD!'
