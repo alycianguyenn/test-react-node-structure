@@ -13,5 +13,12 @@ const helloWorldd = (req, res, next) => {
     })
 }
 
+const answers = (req, res, next) => {
+    res.status(200).json({
+        answer: 'YES!'
+    })
+}
+
 module.exports.saySomething = saySomething;
 module.exports.helloWorldd = helloWorldd;
+module.exports.answers = answers;
